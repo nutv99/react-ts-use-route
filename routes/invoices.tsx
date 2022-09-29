@@ -9,7 +9,7 @@ import { useSearchParams } from "react-router-dom";
 
 import SubInvoices from "./subinvoice";
 
-export default function Invoices({match}) {
+export default function Invoices() {
   let [searchParams, setSearchParams] = useSearchParams();
   
   //const id = match.params.productId  ;
